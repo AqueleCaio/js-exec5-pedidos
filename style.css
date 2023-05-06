@@ -1,0 +1,22 @@
+#lista-pedidos {
+    display: flex;
+    flex-direction: column;
+}
+
+.remover {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.remover:hover {
+    cursor: pointer;
+    background-color: darkred;
+    transform: scale(1);
+}
+
+.remover:active {
+    background-color: darkred;
+    transform: scale(.9);
+}
